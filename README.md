@@ -15,25 +15,30 @@
 
 Antes de comenzar con Bootstrap, es necesario preparar el proyecto y observar cómo se ve y funciona actualmente.
 
-1. Clonar el repositorio en la computadora.
+1. Realiza un fork del repositorio. A partir de este punto, se trabajará en el repositorio creado en este paso.
+   
+2. Clonar el repositorio.
+   ```bash
+   git clone url
+   ```
 
-2. Abrir la carpeta del proyecto en **Visual Studio Code**.
+3. Abrir la carpeta del proyecto en **Visual Studio Code**.
 
-3. Abrir una terminal dentro de Visual Studio Code y ejecutar:
+4. Abrir una terminal dentro de Visual Studio Code y ejecutar:
 
    ```bash
    npm install
    ```
 
-4. Una vez finalizada la instalación, ejecutar:
+5. Una vez finalizada la instalación, ejecutar:
 
    ```bash
    npm run dev
    ```
 
-5. Abrir en el navegador la dirección que aparece en la terminal.
+6. Abrir en el navegador la dirección que aparece en la terminal.
 
-6. Recorrer la página y probar la interfaz actual:
+7. Recorrer la página y probar la interfaz actual:
 
    - Agregar una clase deportiva.
    - Verificar que aparezca en la lista.
